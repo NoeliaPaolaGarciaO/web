@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: 60 px;
+}
+
+.bg-custom {
+    background-color: #3d4d88
+}
+
+main {
+    background-image: url(./images/salta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 78.3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.btn-custom {
+    border: none;
+}
+
+.form-btn-explore-trip {
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.btn-explore-trip {
+    background-color: #3d4d88;
+    color: #fff;
+    border: 2px;
+    padding: 11px 20px;
+    font-size: 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-explore-trip:hover {
+background-color: #3d4d88;
+transition: 00.35s ease-in-out all;
+}
+
+.me-4 {
+    text-decoration: none;
+}
+
+
+.links-footer {
+    text-decoration: none;
+    color: #adadad;
+}
+
+.links-footer:hover {
+    color: #3d4d88;
+}
