@@ -1,1 +1,1 @@
-# web
+página web de agencia de viajes en preparación
